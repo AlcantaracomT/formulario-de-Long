@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F0E161;
+    display: flex;
+    font-family: Poppins;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+    border: 0;
+}
+
+.container {
+    width: 450px;
+    max-width: 100%;
+    border-radius: 3px;
+    background: linear-gradient(45deg, #d8cb57, #fff168);
+    box-shadow:  5px -5px 10px #dacd58, -5px 5px 10px #fff56a;
+}
+
+.header {
+    padding: 30px 40px;
+}
+
+.header h2 {
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.form {
+    padding: 0 40px 30px;
+}
+
+.formControl {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.formControl label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.formControl input {
+    border-radius: 6px;
+    outline: 0;
+    display: block;
+    font-size: 14px;
+    width: 98%;
+    padding: 15px;
+    border: none;
+}
+
+.formControl.success input {
+    border: 3px solid #4ECA64;
+}
+
+.formControl.error input {
+    border: 3px solid #DB5A5A;
+}
+
+.formControl.error i.iconneError {
+    visibility: visible;
+}
+
+.formControl.success i.iconneSuccess {
+    visibility: visible;
+}
+
+.formControl.error small{
+    color: #DB5A5A;
+    visibility: visible;
+}
+
+.formControl i {
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.formControl small {
+    visibility: hidden;
+    position: absolute;
+    margin-top: 5px;
+    font-size: 14px;
+
+}
+
+.form button {
+    background-color: #000;
+    border-radius: 13px;
+    color: #fff;
+    padding: 14px;
+    font-size: 15px;
+    font-weight: 600;
+    width: 65%;
+    border: none;
+    margin: -6px 63px 0;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #444444;
+    transition: 0.3s;
+}
