@@ -1,8 +1,8 @@
 const form = document. getElementById('form');
 const username = document. getElementById('username');
 const email = document. getElementById('email');
-const passoword = document. getElementById('password');
-const passowordTwo = document. getElementById('passowordTwo');
+const password = document. getElementById('password');
+const passwordTwo = document. getElementById('passwordTwo');
      
 form.addEventListener('submit', (e)  => {
     e.preventDefault();
